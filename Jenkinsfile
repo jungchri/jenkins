@@ -1,12 +1,15 @@
 pipeline {
-    stages {
-        stage('Compile') {
-            steps {
-                sh '''
-                	cmake . 
-                	make
-                '''
-            }
-        }
-    }
+  agent {
+    master true
+  }
+  stages {
+    stage('Compile') {
+      steps {
+        sh '''
+          cmake . 
+          make
+          '''
+          }
+      }
+  }
 }
