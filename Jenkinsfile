@@ -3,11 +3,18 @@ pipeline {
     any true
   }
   stages {
-    stage('Compile') {
+     stage('Compile') {
       steps {
         sh '''
           cmake . 
           make
+          '''
+          }
+      }
+    stage('Run') {
+      steps {
+        sh '''
+          ./main
           '''
           }
       }
