@@ -1,0 +1,3 @@
+/Users/jung/Desktop/things/programming/uebung/learncpp/12.7/build/CMakeFiles/rebuild_cache.dir
+/Users/jung/Desktop/things/programming/uebung/learncpp/12.7/build/CMakeFiles/edit_cache.dir
+/Users/jung/Desktop/things/programming/uebung/learncpp/12.7/build/CMakeFiles/main.dir
