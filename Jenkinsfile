@@ -1,6 +1,6 @@
 pipeline {
   agent {
-    master true
+    any true
   }
   stages {
     stage('Compile') {
